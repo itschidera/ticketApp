@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13206C7B2C0E34A500E0E4DC /* Louisian_TicketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13206C7A2C0E34A500E0E4DC /* Louisian_TicketApp.swift */; };
+		13206C7D2C0E34A500E0E4DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13206C7C2C0E34A500E0E4DC /* ContentView.swift */; };
+		13206C7F2C0E34AA00E0E4DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13206C7E2C0E34AA00E0E4DC /* Assets.xcassets */; };
+		13206C822C0E34AA00E0E4DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13206C812C0E34AA00E0E4DC /* Preview Assets.xcassets */; };
+		13206C8C2C0E34AA00E0E4DC /* Louisian_TicketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13206C8B2C0E34AA00E0E4DC /* Louisian_TicketTests.swift */; };
+		13206C962C0E34AA00E0E4DC /* Louisian_TicketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13206C952C0E34AA00E0E4DC /* Louisian_TicketUITests.swift */; };
+		13206C982C0E34AA00E0E4DC /* Louisian_TicketUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13206C972C0E34AA00E0E4DC /* Louisian_TicketUITestsLaunchTests.swift */; };
+		13206CA52C0E409500E0E4DC /* TicketInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13206CA42C0E409500E0E4DC /* TicketInfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13206C882C0E34AA00E0E4DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13206C6F2C0E34A500E0E4DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13206C762C0E34A500E0E4DC;
+			remoteInfo = Louisian_Ticket;
+		};
+		13206C922C0E34AA00E0E4DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13206C6F2C0E34A500E0E4DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13206C762C0E34A500E0E4DC;
+			remoteInfo = Louisian_Ticket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13206C772C0E34A500E0E4DC /* Louisian_Ticket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Louisian_Ticket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13206C7A2C0E34A500E0E4DC /* Louisian_TicketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Louisian_TicketApp.swift; sourceTree = "<group>"; };
+		13206C7C2C0E34A500E0E4DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		13206C7E2C0E34AA00E0E4DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13206C812C0E34AA00E0E4DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		13206C872C0E34AA00E0E4DC /* Louisian_TicketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Louisian_TicketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13206C8B2C0E34AA00E0E4DC /* Louisian_TicketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Louisian_TicketTests.swift; sourceTree = "<group>"; };
+		13206C912C0E34AA00E0E4DC /* Louisian_TicketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Louisian_TicketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13206C952C0E34AA00E0E4DC /* Louisian_TicketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Louisian_TicketUITests.swift; sourceTree = "<group>"; };
+		13206C972C0E34AA00E0E4DC /* Louisian_TicketUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Louisian_TicketUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		13206CA42C0E409500E0E4DC /* TicketInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketInfo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13206C742C0E34A500E0E4DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13206C842C0E34AA00E0E4DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13206C8E2C0E34AA00E0E4DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13206C6E2C0E34A500E0E4DC = {
+			isa = PBXGroup;
+			children = (
+				13206C792C0E34A500E0E4DC /* Louisian_Ticket */,
+				13206C8A2C0E34AA00E0E4DC /* Louisian_TicketTests */,
+				13206C942C0E34AA00E0E4DC /* Louisian_TicketUITests */,
+				13206C782C0E34A500E0E4DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13206C782C0E34A500E0E4DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13206C772C0E34A500E0E4DC /* Louisian_Ticket.app */,
+				13206C872C0E34AA00E0E4DC /* Louisian_TicketTests.xctest */,
+				13206C912C0E34AA00E0E4DC /* Louisian_TicketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13206C792C0E34A500E0E4DC /* Louisian_Ticket */ = {
+			isa = PBXGroup;
+			children = (
+				13206C7A2C0E34A500E0E4DC /* Louisian_TicketApp.swift */,
+				13206C7C2C0E34A500E0E4DC /* ContentView.swift */,
+				13206C7E2C0E34AA00E0E4DC /* Assets.xcassets */,
+				13206C802C0E34AA00E0E4DC /* Preview Content */,
+			);
+			path = Louisian_Ticket;
+			sourceTree = "<group>";
+		};
+		13206C802C0E34AA00E0E4DC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				13206C812C0E34AA00E0E4DC /* Preview Assets.xcassets */,
+				13206CA42C0E409500E0E4DC /* TicketInfo.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		13206C8A2C0E34AA00E0E4DC /* Louisian_TicketTests */ = {
+			isa = PBXGroup;
+			children = (
+				13206C8B2C0E34AA00E0E4DC /* Louisian_TicketTests.swift */,
+			);
+			path = Louisian_TicketTests;
+			sourceTree = "<group>";
+		};
+		13206C942C0E34AA00E0E4DC /* Louisian_TicketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13206C952C0E34AA00E0E4DC /* Louisian_TicketUITests.swift */,
+				13206C972C0E34AA00E0E4DC /* Louisian_TicketUITestsLaunchTests.swift */,
+			);
+			path = Louisian_TicketUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13206C762C0E34A500E0E4DC /* Louisian_Ticket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13206C9B2C0E34AB00E0E4DC /* Build configuration list for PBXNativeTarget "Louisian_Ticket" */;
+			buildPhases = (
+				13206C732C0E34A500E0E4DC /* Sources */,
+				13206C742C0E34A500E0E4DC /* Frameworks */,
+				13206C752C0E34A500E0E4DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Louisian_Ticket;
+			productName = Louisian_Ticket;
+			productReference = 13206C772C0E34A500E0E4DC /* Louisian_Ticket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13206C862C0E34AA00E0E4DC /* Louisian_TicketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13206C9E2C0E34AB00E0E4DC /* Build configuration list for PBXNativeTarget "Louisian_TicketTests" */;
+			buildPhases = (
+				13206C832C0E34AA00E0E4DC /* Sources */,
+				13206C842C0E34AA00E0E4DC /* Frameworks */,
+				13206C852C0E34AA00E0E4DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13206C892C0E34AA00E0E4DC /* PBXTargetDependency */,
+			);
+			name = Louisian_TicketTests;
+			productName = Louisian_TicketTests;
+			productReference = 13206C872C0E34AA00E0E4DC /* Louisian_TicketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13206C902C0E34AA00E0E4DC /* Louisian_TicketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13206CA12C0E34AB00E0E4DC /* Build configuration list for PBXNativeTarget "Louisian_TicketUITests" */;
+			buildPhases = (
+				13206C8D2C0E34AA00E0E4DC /* Sources */,
+				13206C8E2C0E34AA00E0E4DC /* Frameworks */,
+				13206C8F2C0E34AA00E0E4DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13206C932C0E34AA00E0E4DC /* PBXTargetDependency */,
+			);
+			name = Louisian_TicketUITests;
+			productName = Louisian_TicketUITests;
+			productReference = 13206C912C0E34AA00E0E4DC /* Louisian_TicketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13206C6F2C0E34A500E0E4DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					13206C762C0E34A500E0E4DC = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					13206C862C0E34AA00E0E4DC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 13206C762C0E34A500E0E4DC;
+					};
+					13206C902C0E34AA00E0E4DC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 13206C762C0E34A500E0E4DC;
+					};
+				};
+			};
+			buildConfigurationList = 13206C722C0E34A500E0E4DC /* Build configuration list for PBXProject "Louisian_Ticket" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13206C6E2C0E34A500E0E4DC;
+			productRefGroup = 13206C782C0E34A500E0E4DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13206C762C0E34A500E0E4DC /* Louisian_Ticket */,
+				13206C862C0E34AA00E0E4DC /* Louisian_TicketTests */,
+				13206C902C0E34AA00E0E4DC /* Louisian_TicketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13206C752C0E34A500E0E4DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13206C822C0E34AA00E0E4DC /* Preview Assets.xcassets in Resources */,
+				13206C7F2C0E34AA00E0E4DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13206C852C0E34AA00E0E4DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13206C8F2C0E34AA00E0E4DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13206C732C0E34A500E0E4DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13206C7D2C0E34A500E0E4DC /* ContentView.swift in Sources */,
+				13206C7B2C0E34A500E0E4DC /* Louisian_TicketApp.swift in Sources */,
+				13206CA52C0E409500E0E4DC /* TicketInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13206C832C0E34AA00E0E4DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13206C8C2C0E34AA00E0E4DC /* Louisian_TicketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13206C8D2C0E34AA00E0E4DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13206C982C0E34AA00E0E4DC /* Louisian_TicketUITestsLaunchTests.swift in Sources */,
+				13206C962C0E34AA00E0E4DC /* Louisian_TicketUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13206C892C0E34AA00E0E4DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13206C762C0E34A500E0E4DC /* Louisian_Ticket */;
+			targetProxy = 13206C882C0E34AA00E0E4DC /* PBXContainerItemProxy */;
+		};
+		13206C932C0E34AA00E0E4DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13206C762C0E34A500E0E4DC /* Louisian_Ticket */;
+			targetProxy = 13206C922C0E34AA00E0E4DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13206C992C0E34AA00E0E4DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13206C9A2C0E34AA00E0E4DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13206C9C2C0E34AB00E0E4DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Louisian_Ticket/Preview Content\"";
+				DEVELOPMENT_TEAM = 3652LJL5PK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swiftFundamentals.Louisian-Ticket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13206C9D2C0E34AB00E0E4DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Louisian_Ticket/Preview Content\"";
+				DEVELOPMENT_TEAM = 3652LJL5PK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swiftFundamentals.Louisian-Ticket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		13206C9F2C0E34AB00E0E4DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3652LJL5PK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swiftFundamentals.Louisian-TicketTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Louisian_Ticket.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Louisian_Ticket";
+			};
+			name = Debug;
+		};
+		13206CA02C0E34AB00E0E4DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3652LJL5PK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swiftFundamentals.Louisian-TicketTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Louisian_Ticket.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Louisian_Ticket";
+			};
+			name = Release;
+		};
+		13206CA22C0E34AB00E0E4DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3652LJL5PK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swiftFundamentals.Louisian-TicketUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Louisian_Ticket;
+			};
+			name = Debug;
+		};
+		13206CA32C0E34AB00E0E4DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3652LJL5PK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swiftFundamentals.Louisian-TicketUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Louisian_Ticket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13206C722C0E34A500E0E4DC /* Build configuration list for PBXProject "Louisian_Ticket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13206C992C0E34AA00E0E4DC /* Debug */,
+				13206C9A2C0E34AA00E0E4DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13206C9B2C0E34AB00E0E4DC /* Build configuration list for PBXNativeTarget "Louisian_Ticket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13206C9C2C0E34AB00E0E4DC /* Debug */,
+				13206C9D2C0E34AB00E0E4DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13206C9E2C0E34AB00E0E4DC /* Build configuration list for PBXNativeTarget "Louisian_TicketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13206C9F2C0E34AB00E0E4DC /* Debug */,
+				13206CA02C0E34AB00E0E4DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13206CA12C0E34AB00E0E4DC /* Build configuration list for PBXNativeTarget "Louisian_TicketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13206CA22C0E34AB00E0E4DC /* Debug */,
+				13206CA32C0E34AB00E0E4DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13206C6F2C0E34A500E0E4DC /* Project object */;
+}
